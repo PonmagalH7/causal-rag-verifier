@@ -6,7 +6,6 @@ llama-index
 spacy
 faiss-cpu
 chromadb
-allennlp
 ragas
 scikit-learn
 pandas
