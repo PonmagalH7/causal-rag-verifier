@@ -165,6 +165,16 @@ if __name__ == "__main__":
             documents.append(sentence.strip())
             source_titles.append(title)
 
-    test_claim = "Quentin Tarantino directed the Palme d'Or winning film because he was born in Tennessee."
+        test_claims = [
+        # 1. Frankenstein-stitched: both halves true, but the causal link is not.
+        "Quentin Tarantino directed the Palme d'Or winning film because he was born in Tennessee.",
 
-    run_pipeline(test_claim, documents, source_titles)
+        # 2. Directly SUPPORTED: stated word-for-word in one source sentence.
+        "Pulp Fiction is a 1994 American crime film directed by Quentin Tarantino.",
+
+        # 3. CONTRADICTED: claims a different nationality than the source states.
+        "Quentin Tarantino is a British film director.",
+    ]
+
+    for claim in test_claims:
+        run_pipeline(claim, documents, source_titles)
