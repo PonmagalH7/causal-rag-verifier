@@ -31,6 +31,7 @@ Both source facts are true. The **causal link between them is entirely fabricate
 ---
 
 ## System Architecture
+<img width="2579" height="1480" alt="architecture_diagram" src="https://github.com/user-attachments/assets/881e20e2-769d-478f-9a16-5406b16bdad2" />
 
 ![System Architecture](assets/architecture_diagram.png)
 
@@ -42,6 +43,7 @@ The system runs as two connected tracks feeding into one pipeline (`src/integrat
 ---
 
 ## Design Methodology
+<img width="1380" height="2179" alt="methodology_diagram" src="https://github.com/user-attachments/assets/449a5759-3794-4047-9a27-118ea982dfd5" />
 
 ![Methodology Pipeline](assets/methodology_diagram.png)
 
